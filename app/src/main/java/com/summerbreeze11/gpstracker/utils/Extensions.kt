@@ -27,3 +27,4 @@ fun Fragment.showToast(s: String) {
 fun AppCompatActivity.showToast(s: String) {
     Toast.makeText(this, s, Toast.LENGTH_LONG).show()
 }
+
